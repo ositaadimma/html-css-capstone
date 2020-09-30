@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HomePage</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- CSS and bootstrap only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- this is the header section of this site -->
+    <header class="position-fixed">
+      <!-- this is the navigation bar section of this site -->
+      <nav class="navbar bg-danger">
+        <div class="container-fluid nav-div">
+          <div class="nav-left-div navbar-header">
+            <a class="navbar-brand text-light" href="index.html"
+              ><i class="far fa-map-marker-alt ml-5"
+                >&nbsp; University Schools</i
+              ></a
+            >
+          </div>
+          <div class="nav-right-div">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" href="result.html"
+                  ><i class="fas fa-search"></i><span> SCHOOLS</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" href="details.html"
+                  ><i class="far fa-user"></i><span> ABOUT</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" href="#"
+                  ><i class="fas fa-signal"></i><span> BLOG</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light mr-2 px-3" href="#"
+                  ><i class="fas fa-align-justify"></i><span> MORE</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="mg-dv mt-5"></div>
+    <!-- this is the main seciton -->
+    <main class="mt-5">
+      <section class="container-fluid bg-secondary cont-sec">
+        <h1 class="search-page-title text-center .txt-ssr pt-5 mt-5 text-light">
+          Search by Country, Education System, School Level
+        </h1>
+        <form class="pl-5 mb-3">
+          <div class="form-row">
+            <div class="col-md-2 col-12 mr-1 mt-3 text-light">
+              <label>Country</label>
+              <select class="custom-select">
+                <option selected disabled value="">Choose</option>
+                <option>Enugu</option>
+                <option>Lagos</option>
+                <option>Abuja</option>
+              </select>
+            </div>
+            <div class="col-md-2 mr-1 mt-3 text-light">
+              <label>Level</label>
+              <select class="custom-select">
+                <option selected disabled value="">Choose</option>
+                <option>Kindergarten</option>
+                <option>Primary</option>
+                <option>Secondary</option>
+                <option>University</option>
+              </select>
+            </div>
+            <div class="col-md-1 mr-1 mt-3 text-light">
+              <label>Type</label>
+              <select class="custom-select">
+                <option selected disabled value="">Choose</option>
+                <option>Type1</option>
+                <option>Type2</option>
+                <option>Type3</option>
+                <option>Type4</option>
+              </select>
+            </div>
+
+            <div class="col-md-2 mr-1 mt-3 text-light">
+              <label>Gender</label>
+              <select class="custom-select">
+                <option selected disabled value="">Choose</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+            <div class="col-md-2 mr-1 mt-3 text-light">
+              <label>Curriculum</label>
+              <select class="custom-select">
+                <option selected disabled value="">Choose</option>
+                <option>Lagos</option>
+                <option>Enugu</option>
+                <option>Imo</option>
+                <option>Anambra</option>
+              </select>
+            </div>
+            <div>
+              <button class="btn btn-primary mt-5 sub-btn" type="submit">
+                Search
+              </button>
+              <button
+                class="btn btn-warning mt-5 fas fa-edit btn-clear sub-btn"
+                type="submit"
+              >
+                Clear form
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="search-results-section mt-5">
+        <h2 class="results-text text-center">
+          Search Results Found 6 School(s)
+        </h2>
+        <div class="gallery mb-5">
+          <div class="sec1 mt-4 bg-danger">
+            <span class="text-img"
+              ><a href="details.html"
+                ><i
+                  class="fad fa-user-graduate fa-10x d-flex justify-content-center align-items-center text-light mt-5"
+                ></i></a
+            ></span>
+            <p class="text-center text-light">The Demo School</p>
+          </div>
+          <div class="sec2 mt-4 bg-danger">
+            <span class="text-img"
+              ><a href="details.html"
+                ><i
+                  class="fad fa-user-graduate fa-10x d-flex justify-content-center align-items-center text-light mt-5"
+                ></i></a
+            ></span>
+            <p class="text-center text-light">The Demo School</p>
+          </div>
+          <div class="sec3 mt-4 bg-danger">
+            <span class="text-img"
+              ><a href="details.html"
+                ><i
+                  class="fad fa-user-graduate fa-10x d-flex justify-content-center align-items-center text-light mt-5"
+                ></i></a
+            ></span>
+            <p class="text-center text-light">The Demo School</p>
+          </div>
+          <div class="sec4 mt-4 bg-danger">
+            <span class="text-img"
+              ><a href="details.html"
+                ><i
+                  class="fad fa-user-graduate fa-10x d-flex justify-content-center align-items-center text-light mt-5"
+                ></i></a
+            ></span>
+            <p class="text-center text-light">The Demo School</p>
+          </div>
+          <div class="sec5 mt-4 bg-danger">
+            <span class="text-img"
+              ><a href="details.html"
+                ><i
+                  class="fad fa-user-graduate fa-10x d-flex justify-content-center align-items-center text-light mt-5"
+                ></i></a
+            ></span>
+            <p class="text-center text-light">The Demo School</p>
+          </div>
+          <div class="sec6 mt-4 bg-danger">
+            <span class="text-img"
+              ><a href="details.html"
+                ><i
+                  class="fad fa-user-graduate fa-10x d-flex justify-content-center align-items-center text-light mt-5"
+                ></i></a
+            ></span>
+            <p class="text-center text-light">The Demo School</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- this is the footer section of this site -->
+    <footer>
+      <div class="row">
+        <div class="container-fluid col-sm-12 col-md-12 col-lg-12">
+          <div class="header-footer-bg">
+            <nav class="nav nav-pills d-flex justify-content-md-between">
+              <p class="nav-item nav-link text-light">HOME</p>
+              <p class="nav-item nav-link">ABOUT</p>
+              <p class="nav-item nav-link">SEARCH</p>
+              <p class="nav-item nav-link">ADVERTISE</p>
+              <p
+                class="footer-links2 text-light fas fa-map-marker-alt fa-3x pt-1"
+              ></p>
+              <p class="nav-item nav-link">FACEBOOK</p>
+              <p class="nav-item nav-link">TWITTER</p>
+              <p class="nav-item nav-link">BLOG</p>
+              <p class="nav-item nav-link">GOOGLE+</p>
+            </nav>
+          </div>
+          <div
+            class="middle-footer d-flex justify-content-center align-items-center flex-wrap"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-12 col-4 mt-5">
+                  <div class="subscrib-form">
+                    <p>SUBSCRIBE</p>
+                    <div>
+                      <input
+                        type="email"
+                        class="email-input"
+                        placeholder="Enter your email"
+                      />
+                      <button
+                        type="button"
+                        class="btn btn-dark text-light sub-btn"
+                      >
+                        Send
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 col-4 mt-5">
+                  <div>
+                    <p>CONTACT</p>
+                    Ositaadimma street Nsukka <br />
+                    <span class="text-danger">Email: ositame@gmial.com</span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 col-4 mt-5">
+                  <div class="about">
+                    <p>ABOUT</p>
+                    <p>
+                      We assist you as a parent, Simply search by location and
+                      check out a school profile to apply for an interview. find
+                      and apply for interviews to schools best suited for your
+                      child
+                      <span class="text-danger">suited for your child. </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="code-footer bg-secondary text-light pt-3 px-4">
+            <ul class="d-flex">
+              <li><i class="fab fa-facebook">&nbsp;&nbsp;</i></li>
+              <li><i class="fab fa-twitter-square">&nbsp;&nbsp;</i></li>
+              <li><i class="fab fa-instagram">&nbsp;&nbsp;</i></li>
+              <li><i class="fab fa-linkedin"></i></li>
+            </ul>
+            <ul>
+              <li>&copy; Copy right 2020</li>
+            </ul>
+            <ul class="d-flex">
+              <li>Address&nbsp;&nbsp;</li>
+              <li>Contact&nbsp;&nbsp;</li>
+              <li>Clients&nbsp;</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
