@@ -45,7 +45,7 @@ input {
 
 .input-div {
   margin: 20px;
-  background-color: #fff;
+  background-color: rgb(250, 240, 240);
   border: 1px solid gray;
   opacity: 0.6;
   border-radius: 5px;
