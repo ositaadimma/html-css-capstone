@@ -19,7 +19,7 @@
 
 ## Getting Started
 
-The project is public it was
+The project is public it was for learning purpose
 
 ## Authors
 
