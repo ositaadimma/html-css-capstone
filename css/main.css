@@ -22,6 +22,10 @@ input {
   color: whitesmoke;
 }
 
+.size-20 {
+  font-size: 1.5rem;
+}
+
 /* navigation bar section */
 
 .position-fixed {
@@ -225,6 +229,10 @@ input {
   align-items: flex-end;
 }
 
+.fdiv {
+  margin-top: 10px;
+}
+
 /* this is media query section */
 
 @media (max-width: 767px) {
@@ -278,6 +286,11 @@ input {
     grid-row-gap: 1px;
     cursor: pointer;
   }
+
+  .nav-l,
+  .footer-hnav p {
+    font-size: calc(0.8rem + 0.1vw);
+  }
 }
 
 @media (max-width: 494px) {
@@ -298,5 +311,12 @@ input {
     padding-right: 10px;
     max-width: 30%;
     margin-left: -20px;
+  }
+
+  .nav-l,
+  .footer-hnav p {
+    font-size: 0.7rem;
+    padding-left: 4px;
+    padding-right: 4px;
   }
 }
