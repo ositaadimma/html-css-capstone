@@ -10,7 +10,7 @@ body {
 }
 
 label,
-input {
+.input-case {
   text-transform: uppercase;
 }
 
