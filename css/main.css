@@ -1,0 +1,322 @@
+* {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+label,
+.input-case {
+  text-transform: uppercase;
+}
+
+.b1 {
+  border: 1px solid red;
+}
+
+.b2 {
+  color: whitesmoke;
+}
+
+.size-20 {
+  font-size: 1.5rem;
+}
+
+/* navigation bar section */
+
+.position-fixed {
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99 !important;
+}
+
+/* section one section */
+.section-img {
+  background-image: url(../img/school-pupil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.label-span {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.input-div {
+  margin: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.w-p {
+  width: 60%;
+}
+
+.w-p-80 {
+  width: 80%;
+}
+
+/* this is section two of this site */
+
+.box {
+  text-align: center;
+  padding: 25px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+}
+
+.icon-fs {
+  font-size: 2rem;
+}
+
+/* this is section three of this site */
+
+.sec3-main-div {
+  padding-left: 0;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.sec3-left-div {
+  padding-top: 30px;
+  max-width: 60%;
+}
+
+.sec3-left-div p {
+  text-align: justify;
+}
+
+.sec3-left-div input {
+  margin-top: 20px;
+}
+
+.sec3-right-div {
+  justify-content: flex-end;
+  max-width: 150px;
+  max-height: 165px;
+  min-width: 149px;
+  min-height: 164px;
+}
+
+.sec3-right-icon {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+/* this is the footer section of this site */
+
+.ul-footer-bottom {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.ul-footer-bottom li {
+  list-style-type: none;
+  color: white;
+}
+
+.lower-footer-links ul {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
+.code-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.code-footer li {
+  list-style-type: none;
+}
+
+.lower-footer-links li {
+  text-decoration: none;
+}
+
+.code-footer a {
+  text-decoration: none;
+}
+
+.header-footer-bg {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.middle-footer {
+  background-color: black;
+  color: white;
+}
+
+.mar-text {
+  transform: translateY(-3rem);
+}
+
+.mar-text1 {
+  transform: translateY(-3rem);
+}
+
+.email-input {
+  width: 50%;
+  height: 35px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.header-footer {
+  align-items: center;
+}
+
+.header-footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+.footer-bottom {
+  background-color: grey;
+}
+
+.footer-bottom ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* details section */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "sec1" "sec2" "sec3" "sec4" "sec5" "sec6";
+  grid-column-gap: 10px;
+  grid-row-gap: 1px;
+  cursor: pointer;
+}
+
+.sec1 {
+  height: 250px;
+}
+
+.padding-25 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.form-row {
+  align-items: flex-end;
+}
+
+.fdiv {
+  margin-top: 10px;
+}
+
+/* this is media query section */
+
+@media (max-width: 767px) {
+  .nav-div {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: nowrap;
+  }
+
+  .section-one-row {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .sec-1-div {
+    flex-direction: column;
+  }
+
+  .input-div {
+    text-align: left;
+  }
+
+  .nav-item a span {
+    display: none;
+  }
+
+  .sec3-right-div img {
+    display: none;
+  }
+
+  .sec3-right-div {
+    justify-content: flex-end;
+    min-width: 2px;
+    min-height: 1px;
+  }
+
+  .sec3-left-div {
+    padding-top: 30px;
+    min-width: 90%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "sec1" "sec2" "sec3" "sec4" "sec5" "sec6";
+    grid-column-gap: 10px;
+    grid-row-gap: 1px;
+    cursor: pointer;
+  }
+
+  .nav-l,
+  .footer-hnav p {
+    font-size: calc(0.8rem + 0.1vw);
+  }
+}
+
+@media (max-width: 494px) {
+  .nav-div {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: nowrap;
+    font-size: 12px;
+  }
+
+  .sec3-main-div {
+    margin-left: -12px;
+  }
+
+  .sec3-left-div {
+    padding-top: 5px;
+    padding-right: 10px;
+    max-width: 30%;
+    margin-left: -20px;
+  }
+
+  .nav-l,
+  .footer-hnav p {
+    font-size: 0.7rem;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
