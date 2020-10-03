@@ -21,6 +21,9 @@
 The project is public it was for learning purpose. should you need a copy of this project, you can go to my
 github account and clone or download the zipped folder to you local machine, unzip and view or copy the code.
 
+Note it has Fontawsome which needs to be loaded on a webserver. So you could install the live-server package in order to display the Fontawsome.
+
+
 ## Authors
 
 👤 **OSITAADIMMA PASCHAL**
